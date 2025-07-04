@@ -34,7 +34,7 @@ jobs:
     # Build the Docker Image
     - name: Build Docker Image
       run: |
-        docker build -t Suchitaa/devops-demo:${{ env.VERSION }} ./ok
+        docker build -t Suchitaa/devops-demo:${{ env.VERSION }} .
 
     # Push the Docker Image
     - name: Push Docker Image
