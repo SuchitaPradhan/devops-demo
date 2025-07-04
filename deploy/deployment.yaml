@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: devops-demo
-        image: suchitaa/devops-demo:v1
+        image: Suchitaa/devops-demo:v1
         ports:
         - containerPort: 80
